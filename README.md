@@ -16,3 +16,16 @@ KL(P || Q) = ΣP(x) ln(P(x) / Q(x))
 
 If the KL divergence between two distributions is zero, then it indicates that the distributions are identical.
 
+Here are some important aspects of KL Divergence:
+
+Measure of similarity/dissimilarity: KL Divergence measures the difference between two probability distributions. It can be used to measure the similarity or dissimilarity between two distributions. If the KLD is small, it indicates that the two distributions are similar, whereas a large KLD suggests that they are dissimilar.
+
+Used in probability density estimation: KL Divergence can be used to estimate the probability density of a distribution. It can be used to estimate the probability distribution of a set of data points based on a given probability distribution.
+
+Used in model selection: KL Divergence can be used in model selection to compare different models. It can be used to compare the performance of two models by comparing the KLD between their predicted distributions and the true distributions.
+
+Used in information theory: KL Divergence is an important concept in information theory. It is used to measure the amount of information lost when one probability distribution is used to approximate another.
+
+Used in neural networks: KL Divergence is often used in neural networks as a regularization technique. It is used to ensure that the learned distribution is close to a predefined distribution. This is often used in generative models such as Variational Autoencoders (VAEs) and Generative Adversarial Networks (GANs).
+
+Overall, KL Divergence is an important concept in probability theory, information theory, and machine learning. It is a versatile tool that can be used in a variety of applications.
